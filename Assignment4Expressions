@@ -1,0 +1,26 @@
+package session1;
+
+public class Assignment4Expressions
+{
+	public static void main(String[] args)
+	{
+		//variable initialization
+		int x=5,y=10,exp1=0,exp2=0,exp3=0,exp4=0;
+		
+		//Evaluation of expressions
+		exp1=x+y*2;
+		exp2=x-y+2;
+		exp3=(x+y)*2;
+		exp4=y%x;
+		
+		//Printing the result
+		System.out.print("values of the expressions are ");
+		System.out.print(" exp1="+exp1);
+		System.out.print(" exp2="+exp2);
+		System.out.print(" exp3="+exp3);
+		System.out.print(" exp4="+exp4);
+		
+		
+		
+	}
+}
