@@ -1,0 +1,17 @@
+package session1;
+
+public class Assignment3Invalidtypecast
+{
+	public static void main(String[] args)
+	{
+			int i;
+			float f=0.0f;
+			long l=0;
+			String s="";
+			
+			 //Cannot convert from
+		    i=s; //string to int
+			i=f; //float to int
+			i=l; //long to int
+	}
+}
