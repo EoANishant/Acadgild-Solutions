@@ -1,0 +1,15 @@
+package session1;
+
+public class Assignment1Sum 
+{	 
+	 public static void main(String[] args) 
+	 {
+		 //Variable Declaration
+		  int a=2,sum=0;
+		  float b=2.5f;
+		  
+		 //Summation 
+		  sum=a+(int)b;
+		  System.out.println("the sum of the numbers is ="+sum);
+	 }
+}
