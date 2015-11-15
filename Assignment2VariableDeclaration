@@ -1,0 +1,14 @@
+package session1;
+
+public class Assignment2VariableDeclaration
+{
+		public static void main(String[] args) 
+		{
+			//Variable Declaration in one line
+			int a,b=4,c;
+		
+			System.out.println("value of b:"+b);
+			
+		}
+
+}
