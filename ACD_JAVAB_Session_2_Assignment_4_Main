@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class ACD_JAVAB_Session_2_Assignment_4_Main {
+
+	public static void main(String[] args) {
+		String month = null;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Please enter the first 3 letters of the month name");
+		month=sc.next();
+		switch(month.toLowerCase())
+		{
+		case "jan":
+			System.out.println("31");
+			break;
+		case "feb":
+			System.out.println("28 for non leap year , 29 for leap year");
+			break;
+		case "mar":
+			System.out.println("31");
+			break;
+		case "apr":
+			System.out.println("30");
+			break;
+		case "may":
+			System.out.println("31");
+			break;
+		case "jun":
+			System.out.println("30");
+			break;
+		case "jul":
+			System.out.println("31");
+			break;
+		case "aug":
+			System.out.println("31");
+			break;
+		case "sep":
+			System.out.println("30");
+			break;
+		case "oct":
+			System.out.println("31");
+			break;
+		case "nov":
+			System.out.println("30");
+			break;
+		case "dec":
+			System.out.println("31");
+			break;
+		default :
+			System.out.println("invalid entry");
+        			
+		}
+		
+
+	}
+
+}
