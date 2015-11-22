@@ -1,0 +1,24 @@
+public class ACD_JAVAB_Session_3_Assignment_2_Main {
+
+	public static void main(String[] args) {
+		int j;
+      System.out.println("the prime numbers between 1 to 100 are : ");
+      System.out.print("1,2,3");
+      for(int i=5;i<100;i=i+2)
+      {
+    	  for(j=3;j<=i/2;j+=2)
+    	  {
+    		  if(i%j==0)
+    		  {
+    			  break;
+    		  }	  
+    	  }
+    	  
+    	  if(j==((i/2)+2) || j==((i/2)+1))
+		  {
+			  System.out.print(","+i);
+		  }
+      }
+	}
+
+}
